@@ -72,7 +72,7 @@ class TextEditorWidget(QtWidgets.QWidget):
                 contents = f.read()
             self.text_edit.setPlainText(contents)
 
-#widget = TextEditorWidget()
+widget = TextEditorWidget()
 
-#panel = nuke.Panel("Text Editor")
-#widget.show()
+panel = nuke.Panel("Text Editor")
+widget.show()
